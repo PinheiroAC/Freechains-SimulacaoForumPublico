@@ -115,4 +115,3 @@ rm -fr /tmp/simul/
 ```
 <br>
 <hr>
-## Resultados

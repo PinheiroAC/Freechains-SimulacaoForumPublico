@@ -101,14 +101,17 @@ Mesmo a existência de usuários abusivos não prejudicou o funcionamento do fó
 #### Rodar a simulação 
 
 
-Basta executar o _script_: `simul.sh`.<br>
-Mas, para facilitar a análise dos resultados, sugerimos redirecionar a saída para um arquivo: `./simul.sh > ./simul.log`<br><br>
+Basta executar o _script_:  `simul.sh`.<br>
+Mas, para facilitar a análise dos resultados, sugerimos redirecionar a saída para um arquivo:<br>
+
+```bash
+ ./simul.sh > ./simul.log
+```
 
 
 #### Limpeza
 
-Os dados do Freechains são gravados no diretório fornecido como parâmetro para o [comando](https://github.com/Freechains/README/blob/master/docs/cmds.md#start) `freechains-host start <dir>`.
-<br><br>Como a simulação utiliza o caminho `/tmp/simul/*`, para remover os arquivos e executar uma nova simulação basta executar o comando:<br>
+Como os dados do Freechains são gravados no diretório fornecido como parâmetro para o [comando](https://github.com/Freechains/README/blob/master/docs/cmds.md#start) `freechains-host start <dir>` e a simulação utiliza o caminho `/tmp/simul/*`, para remover os arquivos e executar uma nova simulação basta executar o comando:<br>
 
 ```bash
 rm -fr /tmp/simul/
